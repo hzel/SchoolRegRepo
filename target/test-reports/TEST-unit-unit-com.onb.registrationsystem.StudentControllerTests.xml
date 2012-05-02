@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="k40in-c" name="com.onb.registrationsystem.StudentControllerTests" tests="8" time="5.579" timestamp="2012-05-02T06:00:03">
+  <properties />
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testSave" time="3.717">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/student/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2fef8fde&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/student/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2fef8fde
+
+	at com.onb.registrationsystem.StudentControllerTests.testSave(StudentControllerTests.groovy:54)
+</failure>
+  </testcase>
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testShow" time="0.832">
+    <failure message="Assertion failed: &#xa;&#xa;assert student.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       com.onb.registrationsystem.Student : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert student.save() != null
+       |       |      |
+       |       null   false
+       com.onb.registrationsystem.Student : null
+
+	at com.onb.registrationsystem.StudentControllerTests.testShow(StudentControllerTests.groovy:69)
+</failure>
+  </testcase>
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testIndex" time="0.091" />
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testList" time="0.196" />
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testCreate" time="0.097" />
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testEdit" time="0.197">
+    <failure message="Assertion failed: &#xa;&#xa;assert student.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       com.onb.registrationsystem.Student : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert student.save() != null
+       |       |      |
+       |       null   false
+       com.onb.registrationsystem.Student : null
+
+	at com.onb.registrationsystem.StudentControllerTests.testEdit(StudentControllerTests.groovy:88)
+</failure>
+  </testcase>
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testUpdate" time="0.139">
+    <failure message="Assertion failed: &#xa;&#xa;assert student.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       com.onb.registrationsystem.Student : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert student.save() != null
+       |       |      |
+       |       null   false
+       com.onb.registrationsystem.Student : null
+
+	at com.onb.registrationsystem.StudentControllerTests.testUpdate(StudentControllerTests.groovy:109)
+</failure>
+  </testcase>
+  <testcase classname="com.onb.registrationsystem.StudentControllerTests" name="testDelete" time="0.126">
+    <failure message="Assertion failed: &#xa;&#xa;assert student.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       com.onb.registrationsystem.Student : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert student.save() != null
+       |       |      |
+       |       null   false
+       com.onb.registrationsystem.Student : null
+
+	at com.onb.registrationsystem.StudentControllerTests.testDelete(StudentControllerTests.groovy:159)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testSave--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSave--
+--Output from testShow--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

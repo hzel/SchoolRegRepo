@@ -1,0 +1,15 @@
+Testsuite: com.onb.registrationsystem.TeacherControllerTests
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.583 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.57 sec
+	FAILED
+java.lang.AssertionError: Implement me
+junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at com.onb.registrationsystem.TeacherControllerTests.testSomething(TeacherControllerTests.groovy:15)
+
