@@ -34,8 +34,11 @@
 					
 						<g:sortableColumn property="lastName" title="${message(code: 'student.lastName.label', default: 'Last Name')}" />
 					
-						<g:sortableColumn property="accountExpired" title="${message(code: 'student.accountExpired.label', default: 'Account Expired')}" />
+						<g:sortableColumn property="level" title="${message(code: 'student.level.label', default: 'Level')}" />
 					
+						<g:sortableColumn property="registrationDate" title="${message(code: 'student.registrationDate.label', default: 'Registration Date')}" />
+					
+						<g:sortableColumn property="accountExpired" title="${message(code: 'student.accountExpired.label', default: 'Account Expired')}" />
 					</tr>
 				</thead>
 				<tbody>
@@ -53,6 +56,8 @@
 						<td>${fieldValue(bean: studentInstance, field: "lastName")}</td>
 					
 						<td><g:formatBoolean boolean="${studentInstance.accountExpired}" /></td>
+
+						<td>${fieldValue(bean: studentInstance, field: "level")}</td>
 					
 					</tr>
 				</g:each>
