@@ -1,3 +1,5 @@
+import grails.plugins.springsecurity.SecurityConfigType
+
 // locations to search for config files that get merged into the main config
 // config files can either be Java properties files or ConfigSlurper scripts
 
@@ -97,7 +99,7 @@ grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.onb.registra
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.onb.registrationsystem.UserRole'
 grails.plugins.springsecurity.authority.className = 'com.onb.registrationsystem.Role'
 
-grails.plugins.springsecurity.securityCinfigType = SecurityConfigType.InterceptUrlMap
+grails.plugins.springsecurity.securityConfigType = SecurityConfigType.InterceptUrlMap
 
 grails.plugins.springsecurity.interceptUrlMap =[
 	'/': ['IS_AUTHENTICATED_ANONYMOUSLY'],
@@ -112,3 +114,4 @@ grails.plugins.springsecurity.interceptUrlMap =[
 	"/student/**": ['ROLE_USER'],
 	"/teacher/**": ['ROLE_ADMIN']
 ]
+
